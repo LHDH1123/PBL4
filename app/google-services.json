@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755179093622",
+    "project_id": "bkzalo-fa6f6",
+    "storage_bucket": "bkzalo-fa6f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755179093622:android:87ecc6348ad52b6371a957",
+        "android_client_info": {
+          "package_name": "com.example.bkzalo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755179093622-150vsgj62mgf4mq6tlsah2eeshlabknd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHAG2Kngs_Da9o8N6qhvI-dkRkHIP300"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755179093622-150vsgj62mgf4mq6tlsah2eeshlabknd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
