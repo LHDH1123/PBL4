@@ -15,7 +15,9 @@
         android:layout_marginBottom="@dimen/_16sdp"
         android:background="@drawable/background_content_top"
         app:layout_constraintBottom_toTopOf="@+id/layoutSend"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="51dp" />
 
     <View
         android:id="@+id/headerBackground"
@@ -112,6 +114,7 @@
         app:layout_constraintStart_toStartOf="@+id/viewBackground"
         app:layout_constraintTop_toTopOf="@+id/viewBackground"/>
 
+
     <FrameLayout
         android:id="@+id/layoutSend"
         android:layout_width="@dimen/_40sdp"
@@ -132,13 +135,28 @@
 
     </FrameLayout>
 
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/upload"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="348dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/primary"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_upload"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <EditText
         android:id="@+id/inputMessage"
         android:layout_width="0dp"
         android:layout_height="@dimen/_40sdp"
-        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_50sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:layout_marginBottom="@dimen/_12ssp"
+        android:layout_marginBottom="12dp"
         android:background="@drawable/background_chat_input"
         android:hint="@string/type_a_message"
         android:imeOptions="actionDone"
@@ -150,6 +168,18 @@
         android:textColorHint="#78909C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/layoutSend"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="57dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="80dp"
+        android:padding="@dimen/_4sdp"
+        android:src="@drawable/ic_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
